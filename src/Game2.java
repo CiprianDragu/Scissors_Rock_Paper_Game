@@ -14,9 +14,9 @@ public class Game2 {
             if (p2 == 'P') {
                 System.out.println("Draw");
             } else if (p2 == 'F') {
-                System.out.println("won");
+                System.out.println("Player 2 won! Scissors cut paper");
             } else if (p2 == 'H') {
-                System.out.println("loose");
+                System.out.println("Player 1 won! Paper covers rock");
             } else {
                 System.out.println("Invalid Character at player 2");
             }
@@ -24,9 +24,9 @@ public class Game2 {
             if (p2 == 'F') {
                 System.out.println("Draw");
             } else if (p2 == 'P') {
-                System.out.println("won");
+                System.out.println("Player 1 won! Scissors cut paper");
             } else if (p2 == 'H') {
-                System.out.println("loose");
+                System.out.println("Player 2 won! Rock beats scissors");
             } else {
                 System.out.println("Invalid Character at player 2");
             }
@@ -34,9 +34,9 @@ public class Game2 {
             if (p2 == 'H') {
                 System.out.println("Draw");
             } else if (p2 == 'F') {
-                System.out.println("won");
+                System.out.println("Player 1 won! Rock beats scissors");
             } else if (p2 == 'P') {
-                System.out.println("loose");
+                System.out.println("Player 2 won! Paper covers rock");
             } else {
                 System.out.println("Invalid Character at player 2");
             }
